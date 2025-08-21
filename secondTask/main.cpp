@@ -1,7 +1,5 @@
-#include "../CityInfo.hpp" //also include libio, as a transitive dependence
+#include "../HelperData.hpp"
 
-constexpr std::string input_file_name = "in.txt";
-constexpr std::string output_file_name = "out.txt";
 auto outfile = libio::file::createWriteFile(R"(C:\Users\user\Downloads\NetoAbstract\secondTask\)" + output_file_name);
 
 void print_city_info(const CityInfo &city_info) {

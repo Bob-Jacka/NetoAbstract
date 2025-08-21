@@ -10,4 +10,5 @@ add_executable(NetoAbstract
         libio.hpp
         CityInfo.cpp
         CityInfo.hpp
+        HelperData.hpp
 )
